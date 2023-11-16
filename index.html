@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Cookie&family=Croissant+One&family=DM+Serif+Display&family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@300;400&family=Noto+Sans+KR:wght@100;900&family=Open+Sans:wght@300&family=Philosopher:wght@700&family=Playfair+Display:wght@500&family=Raleway:wght@300;400&family=Roboto+Slab&family=Roboto:wght@100&family=Space+Mono&family=Tangerine&family=Vidaloka&display=swap" rel="stylesheet">
+    <title>Gissa Talet</title>
+</head>
+<body>
+    <div class="game-card">
+        <img class="clubs clubs-top" src="./clubs.png" alt="clubs">
+        <div class="instructions">
+            <h1>Gissa Talet</h1>
+            <p>Skriv in ett tal mellan 1 och 100. <br>Du har fem försök att gissa rätt.</p>
+        </div>
+
+        <div class="guess-section">
+            <input type="number" id="number-input" min="1" max="99">
+            <button id="guessBtn" type="submit">Gissa!</button>
+        </div>
+
+        <div class="guess-text">
+            <h3 id="guessHighLow"></h3>
+            <h2 id="outcome"></h2>
+        </div>
+
+        <div class="guess-div">
+            <h4>Gissningar:</h4>
+            <ul class="guess-ul">
+                <li id="guess1" class="guess-li"></li>
+                <li id="guess2" class="guess-li"></li>
+                <li id="guess3" class="guess-li"></li>
+                <li id="guess4" class="guess-li"></li>
+                <li id="guess5" class="guess-li"></li>
+            </ul>
+        </div>
+
+        <button id="restartBtn" type="submit">Starta om</button>
+        <img class="clubs clubs-bottom" src="clubs.png" alt="clubs">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
