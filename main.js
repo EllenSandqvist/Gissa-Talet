@@ -99,6 +99,43 @@ function printWrong(){
     }
 };
 
+// *******ALT. KOD MED SWITCH ******************* */
+
+// function printWrong(){
+//     switch(numberOfGuesses){
+//         case 1:
+//             const guess1 = document.getElementById('guess1');
+//             guess1.classList.add('wrongGuess');
+//             guess1.textContent = guess;
+//             console.log("1");
+//             break;
+//         case 2:
+//             const guess2 = document.getElementById('guess2');
+//             guess2.classList.add('wrongGuess');
+//             guess2.textContent = guess;
+//             console.log("2");
+//             break;
+//         case 3:
+//             const guess3 = document.getElementById('guess3');
+//             guess3.classList.add('wrongGuess');
+//             guess3.textContent = guess;
+//             console.log("3");
+//             break;
+//         case 4:
+//             const guess4 = document.getElementById('guess4');
+//             guess4.classList.add('wrongGuess');
+//             guess4.textContent = guess;
+//             console.log("4");
+//             break;
+//         case 5:
+//             const guess5 = document.getElementById('guess5');
+//             guess5.classList.add('wrongGuess');
+//             guess5.textContent = guess;
+//             console.log("5");
+//             break;
+//     }
+// }
+
 //------------------------------------------------------------------------------
 //----------------------- FUNCTION FOR RIGHT GUESS -----------------------------
 //------------------------------------------------------------------------------
