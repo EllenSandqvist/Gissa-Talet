@@ -127,13 +127,14 @@ button:hover {
 }
 
 .guess-li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 3px solid black;
     background-color: #ecf2e8;
     border-radius: 50%;
     width: 3em;
     height: 3em;
-    text-align: center;
-    line-height: 3em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 3em;
     font-weight: bold;
